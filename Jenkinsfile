@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/<harshitchaudhary616>/<AgileAssessment_07_Project1>.git'
+                git branch: 'main', url: 'https://github.com/harshitchaudhary616/AgileAssessment_07_Project1.git'
             }
         }
 
